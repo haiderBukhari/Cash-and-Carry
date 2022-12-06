@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: aquamarine;
+    width: 100%;
+    border: solid;
+    border-radius: 17px;
+    border-color: rgb(104, 170, 176);
+    height: 60px;
+}
+
+.main:hover {
+    background-color: rgb(40, 146, 160);
+    border-color: black;
+}
+
+#main1 {
+
+    padding-top: 14px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.home {
+
+    margin-left: 272px;
+    cursor: pointer;
+}
+
+.home:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(90, 175, 147);
+    background-color: rgb(206, 224, 237);
+    color: blue;
+}
+
+.login {
+
+    margin-left: 57px;
+    cursor: pointer;
+}
+
+.login:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(90, 175, 147);
+    background-color: rgb(206, 224, 237);
+    color: blue;
+
+}
+
+.service {
+
+    margin-left: 57px;
+    cursor: pointer;
+}
+
+.service:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(90, 175, 147);
+    background-color: rgb(206, 224, 237);
+    color: blue;
+}
+
+.product {
+
+    margin-left: 57px;
+    cursor: pointer;
+
+}
+
+.product:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(90, 175, 147);
+    background-color: rgb(206, 224, 237);
+    color: blue;
+}
+
+.contact {
+
+    margin-left: 57px;
+    cursor: pointer;
+}
+
+.contact:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(90, 175, 147);
+    background-color: rgb(206, 224, 237);
+    color: blue;
+}
+
+.img {
+    width: 100%;
+    margin-left: -184px;
+
+}
+
+#main_products {
+    background-color: darkgray;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.laptop {
+    background-color: darkgray;
+    margin-left: 20pc;
+}
+
+.text {
+    background-color: darkgray;
+}
+
+.meet {
+    background-color: darkgray;
+}
+
+.image {
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 50px;
+    background-color: white;
+    margin-left: 50px;
+    margin-left: 326px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+
+}
+
+.image1 {
+    border-style: solid;
+    border-radius: 20px;
+    background-color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+#allign {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 63px;
+}
+
+#allign1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 110px;
+}
+
+#text {
+    font-size: 27px;
+    margin-top: 20px;
+    padding-left: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#style {
+    margin-left: 20px;
+}
+
+.buy {
+    margin-left: 170px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(56, 35, 143);
+    margin-right: 170px;
+    cursor: pointer;
+
+}
+
+.buy:hover {
+    background-color: rgb(118, 152, 216);
+    border-color: red;
+    border-radius: 23px;
+}
+
+.services {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 750px;
+    margin-top: 30px;
+
+}
+
+.services1 {
+    font-size: 27px;
+    margin-top: 20px;
+    padding-left: 502px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.services2 {
+    font-size: 27px;
+    margin-top: 20px;
+    padding-left: 520px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.services3 {
+    font-size: 27px;
+    margin-top: 20px;
+    padding-left: 568px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.services4 {
+    font-size: 27px;
+    margin-top: 20px;
+    padding-left: 666px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#details{
+    background-color: rgb(148, 208, 240);
+    margin-bottom: 20px;
+}
+
+#main_products{
+    padding-top: 30px;
+}
+
+
+@media(max-width: 575px){
+    .btn-group{
+        width: 100%;
+    }
+    .btn-group>.btn{
+        flex: 50%;
+    }
+    .wrapper{
+        margin: 10px;
+    }
+    .h5{
+        padding-top: 10px;
+    }
+}
+#contact{
+    background-color: blueviolet;
+}
